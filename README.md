@@ -18,6 +18,8 @@ within the mySQL shell, run `source db/schema.sql` to create the database.
 
 A video walkthrough is available [here.](https://drive.google.com/file/d/1R5NPu2y8CbeImh0d0yz6c8jENBAeWAkA/view)
 
+![insomnia screenshot](./assets/insomnia-demo.png)
+
 ## License
 
 ![MIT](https://img.shields.io/github/license/mattchiaro/orm-ecommerce
