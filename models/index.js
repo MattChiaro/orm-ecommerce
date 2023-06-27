@@ -17,14 +17,14 @@ Category.hasMany(Product, {
 })
 
 // Products belongToMany Tags (through ProductTag)
-Product.BelongsToMany(Tag, {
+Product.belongsToMany(Tag, {
   foreignKey: 'product_id',
   through: ProductTag,
 })
 
 // Tags belongToMany Products (through ProductTag)
 
-Tag.BelongsToMany(Product, {
+Tag.belongsToMany(Product, {
   foreignKey: 'tag_id',
   through: ProductTag,
 })
